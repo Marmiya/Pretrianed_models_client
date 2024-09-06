@@ -1,0 +1,5 @@
+<launch>
+    <node name="mast3r" pkg="pretrained_models_client" type="mast3r.py" output="screen">
+      <remap from="ue_sensor_raw" to="/unreal/unreal_ros_client/ue_sensor_raw" />
+    </node>
+</launch>
